@@ -1,12 +1,12 @@
-#include <SDL.h>
+#include "function.h"
 
-int main(int arc, char* argv[]) {
-	SDL_Window* window = SDL_CreateWindow("Test IDE",
-	SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 600, 600, SDL_WINDOW_SHOWN);
+bool initData() {
+	bool success = true;
+	int ret = SDL_Init(SDL_INIT_VIDEO);
 
-	SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+}
 
-	SDL_Rect rect = { 100, 100, 100, 100 };
+int main(int argc, char* argv[]) {
 	
 	return 0;
 }
