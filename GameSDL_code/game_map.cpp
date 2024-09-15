@@ -50,7 +50,7 @@ void GameMap::DrawMap(SDL_Renderer* scr) {
 
 	int map_x = 0, map_y = 0;
 
-	map_x = game_map.start_x / TILE_SIZE;
+ 	map_x = game_map.start_x / TILE_SIZE;
 	map_y = game_map.start_y / TILE_SIZE;
 
 	x1 = (game_map.start_x % TILE_SIZE) * -1;

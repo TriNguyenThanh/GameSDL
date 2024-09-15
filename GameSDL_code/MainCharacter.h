@@ -1,8 +1,10 @@
 #ifndef MAIN_CHARACTER_H_
 #define MAIN_CHARACTER_H_
 
+#include <vector>
 #include "function.h"
 #include "Base_Object.h"
+#include "BulletObject.h"
 
 class MainChar : public BaseObject {
 public:
@@ -22,7 +24,13 @@ public:
 	void CheckToMap(const Map& map_data);
 	void SetMapXY(const int& map_x, const int& map_y) { map_x_ = map_x; map_y_ = map_y; }
 	void CenterEntityOnMap(Map& map_data);
+
+	void set_bullet_list(std::vector<BulletObject*> bullet_list) { p_bullet_list = bullet_list; }
+	std::vector<BulletObject*> get_bullet_list() const { return p_bullet_list; }
+	void HandleBullet(SDL_Renderer* des);
 private:
+	std::vector<BulletObject*> p_bullet_list;
+
 	float x_val;
 	float y_val;
 
@@ -39,6 +47,7 @@ private:
 	bool on_ground;
 
 	int map_x_, map_y_;
+	int come_back_time;
 };
 
 #endif // !MAIN_CHARACTER_H_

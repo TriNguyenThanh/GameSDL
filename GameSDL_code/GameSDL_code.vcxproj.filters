@@ -18,37 +18,43 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="function.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="BulletObject.cpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
     <ClCompile Include="Base_Object.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
     <ClCompile Include="game_map.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MainCharacter.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClCompile>
     <ClCompile Include="ImpTimer.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCharacter.cpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="function.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="BulletObject.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Base_Object.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="game_map.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MainCharacter.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ImpTimer.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCharacter.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
