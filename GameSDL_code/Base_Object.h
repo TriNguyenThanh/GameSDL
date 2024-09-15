@@ -2,6 +2,7 @@
 #define BASE_OBJECT_H_
 
 #include "function.h"
+
 class BaseObject {
 protected:
 	SDL_Texture* p_object;
@@ -13,7 +14,7 @@ public:
 	SDL_Rect getRect();
 	SDL_Texture* getObject();
 
-	bool loadImg(std::string filepath, SDL_Renderer* scr);
+	virtual bool loadImg(std::string filepath, SDL_Renderer* scr);
 	void Render(SDL_Renderer* des, const SDL_Rect* clip = NULL);
 	void Free();
 };
