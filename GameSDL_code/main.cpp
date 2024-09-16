@@ -112,8 +112,6 @@ int main(int argc, char* argv[]) {
 			if (delay_time > 0)
 				SDL_Delay(delay_time);
 		}
-
-			
 	}
 
 	close();

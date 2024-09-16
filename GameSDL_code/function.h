@@ -29,10 +29,10 @@ const int Render_Draw_Color = 0xff;
 
 #define CharFrame 8
 
-#define GRAVITY 0.8
+#define GRAVITY 0.7
 #define MAX_FALL_SPEED 6
-#define PLAYER_SPEED 4
-#define PLAYER_JUMP_HEIGHT 17
+#define PLAYER_SPEED 7
+#define PLAYER_JUMP_HEIGHT 12
 
 #define BULLET_SPEED 20
 
